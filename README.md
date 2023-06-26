@@ -1,17 +1,17 @@
-# react-native-broadcast
+# react-native-event-broadcast
 
 Simply broadcast stuff from React Native.
 
 ## Installation
 
 ```sh
-npm install react-native-broadcast
+npm install react-native-event-broadcast
 ```
 
 ## Usage
 
 ```js
-import { broadcast } from 'react-native-broadcast';
+import { broadcast } from 'react-native-event-broadcast';
 
 // ...
 

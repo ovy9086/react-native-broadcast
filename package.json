@@ -41,13 +41,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/ovy9086/react-native-broadcast",
+  "repository": "https://github.com/ovy9086/react-native-event-broadcast",
   "author": "Ovidiu Latcu <ovidiu.latcu@gmail.com> (https://github.com/ovy9086)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ovy9086/react-native-broadcast/issues"
+    "url": "https://github.com/ovy9086/react-native-event-broadcast/issues"
   },
-  "homepage": "https://github.com/ovy9086/react-native-broadcast#readme",
+  "homepage": "https://github.com/ovy9086/react-native-event-broadcast#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

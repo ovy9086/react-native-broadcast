@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
-import { broadcast } from 'react-native-broadcast';
+import { broadcast } from 'react-native-event-broadcast';
 
 export default function App() {
   React.useEffect(() => {
