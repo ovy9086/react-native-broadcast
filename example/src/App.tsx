@@ -1,18 +1,17 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'react-native-broadcast';
+import { broadcast } from 'react-native-broadcast';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
   React.useEffect(() => {
-    multiply(3, 7).then(setResult);
+    broadcast('CustomNotification');
   }, []);
 
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Text>Hello</Text>
+      <Text>K bye.</Text>
     </View>
   );
 }

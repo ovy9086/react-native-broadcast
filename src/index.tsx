@@ -17,6 +17,6 @@ const Broadcast = NativeModules.Broadcast
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return Broadcast.multiply(a, b);
+export function broadcast(msg: string) {
+  return Broadcast.broadcast(msg);
 }
