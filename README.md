@@ -11,11 +11,11 @@ npm install react-native-broadcast
 ## Usage
 
 ```js
-import { multiply } from 'react-native-broadcast';
+import { broadcast } from 'react-native-broadcast';
 
 // ...
 
-const result = await multiply(3, 7);
+broadcast('my_message')
 ```
 
 ## Contributing
