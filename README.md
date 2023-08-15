@@ -1,6 +1,8 @@
 # react-native-event-broadcast
 
-Simply broadcast stuff from React Native.
+Simply broadcast plain text messages from JS code to your native Android / iOS code.
+
+This package uses `NotificationCenter` on iOS and `LocalBroadcastManager` on Android.
 
 ## Installation
 
